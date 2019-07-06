@@ -61,3 +61,6 @@ $ docker tag image username/repository:tag
 $ docker push username/repository:tag
 // docker push mkhan07/firsthello
 ```
+
+### - deleting all images
+docker system prune -a --volumes

@@ -1,0 +1,8 @@
+Amazon ECS >> Task Definition
+>> Task Execution Role >> Attach Policy
+
+
+infraustracturea as code
+
+
+powershell s3 upload location 

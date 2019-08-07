@@ -8,7 +8,7 @@ ml.p2.xlarge
 ml.p3.2xlarge
 // before using, check code to reduce complexity!
 
-### - stop instance after training
+### - auto stop instance after training
 ```python
 import boto3
 

@@ -48,3 +48,13 @@ $ php artisan key:generate
 ```
 php artisan migrate
 ```
+
+### Initiate laravel default authentication
+```
+$ php artisan make:auth
+```
+
+### See route list
+```
+php artisan route:list
+```

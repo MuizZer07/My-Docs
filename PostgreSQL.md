@@ -13,7 +13,7 @@ $ service postgresql status
 $ service postgresql start
 ```
 
-### Run PostgreSQL Services (ubuntu)
+### Run PostgreSQL Services (mac)
 ```
 $ pg_ctl -D /usr/local/var/postgres start
 ```

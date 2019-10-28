@@ -18,6 +18,11 @@ $ service postgresql start
 $ pg_ctl -D /usr/local/var/postgres start
 ```
 
+### Stop PostgreSQL Services (mac)
+```
+$ pg_ctl -D /usr/local/var/postgres stop
+```
+
 ### Stop PostgreSQL Services
 ```
 $ service postgresql stop
@@ -58,7 +63,7 @@ postgres=# \du
 
 ### Create a new User
 ```
-postgres=# CREATE ROLE USERNAMETOBEGIVEN WITH PASSWORD 'PASS'
+postgres=# CREATE ROLE USERNAMETOBEGIVEN WITH PASSWORD 'PASS';
 // e.g USERNAMETOBEGIVEN = muiz
 ```
 

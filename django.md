@@ -37,3 +37,13 @@ $ python manage.py collectstatic
 ```
 $ python manage.py createsuperuser
 ```
+
+### - Install dependencies from requirements.txt
+```
+$ pip install -r requirements.txt
+```
+
+### - Import database from json
+```
+$ python manage.py loaddata import_sql/sql.json
+```

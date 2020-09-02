@@ -27,3 +27,41 @@ $ git config --global user.name "Muiz Ahmed Khan"
 ```
 $ git config --global credential.helper store
 ```
+
+### - initiate git-flow
+```
+$ git flow init
+```
+
+### - check active branches
+```
+$ git branch
+```
+
+### - checkout a branch
+```
+$ git checkout branch_name
+$ git checkout master
+```
+
+### - create a feature branch without git-flow extension
+```
+$ git checkout develop
+$ git merge feature_branch
+
+```
+
+### - create a feature branch with git-flow extension
+```
+$ git flow feature start feature_branch
+// the feature branch will be created as feature/feature_branch
+
+$ git flow release start 0.1.0  
+$ git flow hotfix start hotfix_branch
+
+```
+
+### - finish a branch with git-flow extension
+```
+$ git flow feature finish feature_branch
+```
